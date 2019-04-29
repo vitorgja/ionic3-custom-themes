@@ -1,0 +1,37 @@
+ion-nav.theme-tema1 [color=primary] [class*=background] {
+    background: #EC0000;
+  }
+  ion-nav.theme-tema1 [color=primary][ion-button] {
+    background: #EC0000;
+  }
+  ion-nav.theme-tema1 [color=secundary] [class*=background] {
+    background: #aaa;
+  }
+  ion-nav.theme-tema1 [color=secundary][ion-button] {
+    background: #aaa;
+  }
+  ion-nav.theme-tema1 ion-tabs.tabs div.tabbar.show-tabbar a.tab-button[aria-selected=true] ion-icon.tab-button-icon {
+    color: #EC0000 !important;
+  }
+  ion-nav.theme-tema1 ion-tabs.tabs div.tabbar.show-tabbar a.tab-button[aria-selected=true] .tab-button-text {
+    color: #EC0000 !important;
+  }
+  
+  ion-nav.theme-tema2 [color=primary] [class*=background] {
+    background: #EC7000;
+  }
+  ion-nav.theme-tema2 [color=primary][ion-button] {
+    background: #EC7000;
+  }
+  ion-nav.theme-tema2 [color=secundary] [class*=background] {
+    background: #555;
+  }
+  ion-nav.theme-tema2 [color=secundary][ion-button] {
+    background: #555;
+  }
+  ion-nav.theme-tema2 ion-tabs.tabs div.tabbar.show-tabbar a.tab-button[aria-selected=true] ion-icon.tab-button-icon {
+    color: #EC7000 !important;
+  }
+  ion-nav.theme-tema2 ion-tabs.tabs div.tabbar.show-tabbar a.tab-button[aria-selected=true] .tab-button-text {
+    color: #EC7000 !important;
+  }

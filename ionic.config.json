@@ -1,5 +1,7 @@
 {
   "name": "theme-color-v3",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

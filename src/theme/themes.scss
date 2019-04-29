@@ -1,0 +1,34 @@
+$themes: (
+    default: (
+        primary: #c7d301,
+        secundary: #aaa
+    )
+);
+
+@each $theme-name, $theme in $themes {
+    ion-nav.theme-#{$theme-name}{
+        @each $cor-name, $cor in $theme {
+            @debug $cor $cor-name;
+            [color="#{$cor-name}"]{
+                [class*="background"]{
+                    background: $cor;
+                }
+
+                &[ion-button]{
+                    background: $cor;
+                }
+
+                
+            }
+        }
+
+        ion-tabs.tabs div.tabbar.show-tabbar a.tab-button[aria-selected=true]{
+            ion-icon.tab-button-icon{
+                color: map-get($theme, primary)!important;
+            }
+            .tab-button-text{
+                color: map-get($theme, primary)!important;
+            }
+        } 
+    }
+}
